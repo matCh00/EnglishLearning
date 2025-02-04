@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/EnglishLearning/static/css/main.aa5cafdc.css",
+    "main.js": "/EnglishLearning/static/js/main.b50e3909.js",
+    "static/media/InterVariable-Italic.woff2": "/EnglishLearning/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
+    "static/media/InterVariable.woff2": "/EnglishLearning/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
+    "static/media/primeicons.svg": "/EnglishLearning/static/media/primeicons.6ed59f962963a4a73af2.svg",
+    "static/media/flag.jpg": "/EnglishLearning/static/media/flag.cd53e45b82aab164fe14.jpg",
+    "static/media/primeicons.eot": "/EnglishLearning/static/media/primeicons.ff0c4cd79b2ffca2de54.eot",
+    "static/media/primeicons.woff": "/EnglishLearning/static/media/primeicons.8931fda1930c3bd21e96.woff",
+    "static/media/primeicons.ttf": "/EnglishLearning/static/media/primeicons.a5c2a53d1ff7a9ff5933.ttf",
+    "static/media/primeicons.woff2": "/EnglishLearning/static/media/primeicons.024b32cc7bf399b1a847.woff2",
+    "index.html": "/EnglishLearning/index.html",
+    "main.aa5cafdc.css.map": "/EnglishLearning/static/css/main.aa5cafdc.css.map",
+    "main.b50e3909.js.map": "/EnglishLearning/static/js/main.b50e3909.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aa5cafdc.css",
+    "static/js/main.b50e3909.js"
+  ]
+}
