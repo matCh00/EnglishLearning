@@ -67,7 +67,7 @@ const FlashcardGame: React.FC<Props> = ({data}) => {
 
   return (
     <div className="p-4 flex flex-column align-items-center gap-4">
-      <Card className="p-fluid w-6">
+      <Card className="p-fluid w-full md:w-6">
         <Dropdown
           value={selectedSection}
           options={sections}
@@ -75,7 +75,7 @@ const FlashcardGame: React.FC<Props> = ({data}) => {
           placeholder="Select section"
           showClear
         />
-        <div className="flex align-items-center gap-3 mt-3">
+        <div className="flex flex-column sm:flex-row align-items-center gap-3 mt-3">
           <Checkbox inputId="words" checked={showWords} onChange={(e) => setShowWords(e.checked || false)} />
           <label htmlFor="words">Words</label>
           <Checkbox
@@ -89,17 +89,19 @@ const FlashcardGame: React.FC<Props> = ({data}) => {
       </Card>
 
       {currentCard && (
-        <Card className="w-6 text-center p-4">
-          <div className="text-2xl cursor-pointer" onClick={() => setShowTranslation((prev) => !prev)}>
+        <Card className="w-full md:w-6 text-center p-4">
+          <div className="text-4xl cursor-pointer" onClick={() => setShowTranslation((prev) => !prev)}>
             {showTranslation ? currentCard.en : currentCard.pl}
           </div>
-          <div className="flex justify-content-between mt-3">
+          <div className="h-2rem sm:h-0"></div>
+          <div className="flex flex-column sm:flex-row justify-content-between mt-3">
             <Button
               label="Try Again"
               icon="pi pi-replay"
               className="p-button-danger"
               onClick={() => pickRandomCard(flashcards)}
             />
+            <div className="h-1rem sm:h-0"></div>
             <Button label="Passed" icon="pi pi-check" className="p-button-success" onClick={() => handleResponse(true)} />
           </div>
         </Card>
