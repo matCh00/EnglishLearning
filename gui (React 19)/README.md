@@ -1,11 +1,17 @@
-# English Learning
+# EnglishLearning
 
-## React + TypeScript application
+## React + TypeScript web application
 
-### [matCh00.github.io/EnglishLearning](https://match00.github.io/EnglishLearning/)
+run application:   
+* `npm run init`     
+* `npm run start`     
 
-### Main View
-![main view](english-learning/public/EnglishLearning.PNG)
+deploy application:   
+* `npm run predeploy`  
+* `npm run deploy`  
 
-### Preview  
-![preview](english-learning\public\EnglishLearning_preview.gif)
+### Preview
+![preview](public/preview.PNG)
+
+### Demo  
+![demo](public/demo.gif)
