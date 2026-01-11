@@ -2,6 +2,13 @@
 .idea/
 *.iml
 
+### Visual studio ###
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
 ### VS Code ###
 .vscode/
 .history/
@@ -17,6 +24,20 @@ dist/
 
 
 ### .NET ###
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww]in32/
+[Aa]rm/
+[Aa]rm64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
 bin/
 obj/
 *.user
@@ -26,6 +47,15 @@ obj/
 *.dll
 *.exe
 *.pdb
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
 
 ### Angular ###
 .angular
